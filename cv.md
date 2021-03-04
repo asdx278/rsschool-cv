@@ -1,1 +1,2 @@
-![foto](https://drive.google.com/file/d/1bFrLGdaIKiySQebJqKX-sThkHkjcFeLs/view?usp=sharing)
+![foto](https://github.com/asdx278/rsschool-cv/blob/gh-pages/IMG_1815.JPG)
+#Albert Shubin
