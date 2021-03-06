@@ -19,8 +19,8 @@
                 <h1 class="header-left-block">Contacts</h1>
                 <p><i class="fas fa-map-marker-alt"></i><span class="text-left-block" itemprop="addressRegion">Russia, Saratov</span></p>                
                 <p><i class="fas fa-phone-alt"></i><span class="text-left-block" itemprop="telephone">+7 (961) 111-22-33</span></p>
-                <p><i class="fas fa-at"></i><a href="mailto:albert.shubin@gmail.com"><span class="text-left-block" itemprop="email">albert.shubin@gmail.com</span></a></p>
-                <p><i class="fab fa-github-alt"></i><a href="https://github.com/asdx278"><span class="text-left-block" itemprop="url">github.com/asdx278</span></a></p>
+                <p><i class="fas fa-at"></i><span class="text-left-block" itemprop="email">albert.shubin@gmail.com</span></p>
+                <p><i class="fab fa-github-alt"></i><span class="text-left-block" itemprop="url">github.com/asdx278</span></p>
                 </section>
                 <section class="skills">
                     <h1 class="header-left-block">Skills</h1>
@@ -30,17 +30,54 @@
                 <p><i class="fab fa-git-alt"></i><span class="text-left-block">GIT</span></p>
                 </section>
             </div>
-            <main class="main-content">
-                
+            <main class="main-content">                
                   <div class="about-me">
-                    <h1 class="fio">Albert Shubin</h1>  
-
-
-
-
-                  </div>
-                
+                    <h1 class="fio">Albert Shubin</h1>
+                    <h1 class="about-me-title">Education</h1>
+                    <p class="univer">Chernyshevsky N.G. Saratov State University </p>
+                        <p>Faculty of Computer Science and Information Technologies</p> Department of System Analysis and Automatic Control, Master’s degree (2017-2019)
+                    <h1 class="about-me-title">Work experience</h1>
+                    <span class="company">Gazprom UGS Ltd. 2009-presen;</span> <span class="position">System Administrator</span> 
+                    <p class="discription">Responsibilities:</p>
+                    <ul>
+                        <li class="li-item-work">administration:</li>
+                        <ul>
+                            <li class="li-item-work-details">Microsoft Exchange Server 2003/2019;</li>
+                            <li class="li-item-work-details">Microsoft Windows Servers 2012/2016/2019 (AD, DNS, DHCP, WSUS);</li>
+                        </ul>
+                        <li class="li-item-work">technical support for users:</li>
+                        <ul>
+                            <li class="li-item-work-details">SAP/1C/DocsVision/CryptoPRO/MS Office</li>
+                        </ul>
+                    </ul>
+                    <h1 class="about-me-title">Example of code</h1>
+                    <p><pre class="example-code">
+                        function calc(value) {      
+                            if (value.match(/=|Enter/)) {  
+                                try {  
+                                    output.textContent = Math.trunc(math.evaluate(output.textContent))  
+                                } catch {              
+                                    let oldValue = output.textContent              
+                                    let newValue = 'недопустимое выражение'            
+                                    output.textContent = newValue            
+                                    setTimeout(() => {
+                                        output.textContent = oldValue
+                                    }, 1500)
+                                }    
+                            } else if (value === 'C') {        
+                                output.textContent = ''    
+                            } else if (value.match(/CE|Backspace/)) {    
+                                output.textContent = output.textContent.substring(0, output.textContent.length - 1)    
+                            } else {         
+                                output.textContent += value
+                            }
+                            } 
+                        </pre></p>
+                        <h1 class="about-me-title">English</h1>
+                        <p class="discription">A2</p>
+                </div>                
                 </main>
+                
 
 
        
@@ -48,6 +85,12 @@
       
 
     </div>
+    <footer class="footer">
+        <img class="logo" src="/img/logo-rs.svg" alt="">
+
+
+
+    </footer>
 
 
 </body>
