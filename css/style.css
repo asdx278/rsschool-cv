@@ -6,32 +6,29 @@
     font-size: 16pt;
   }
   body {
-    background-color: #E6F4FA;    
+    background-color: #ffffff;    
   }
   .left-block {    
     background-color: #4A4E4D;
-    width: 300px;
-    max-height: 1350px;    
+    width: 300px;      
     color: #F6CD61;
     padding: 10px;   
   }
   .avatar {           
-    width: 70%;
+    width: 100%;
     height: 40%;    
   }
   .main-block {
     display: flex;
-    width: 1400px;    
+    width: 1000px;
     margin-left: auto;
-    margin-right: auto;  
-    border: 4px double black;
-    background-color: #0E9AA7;
-    padding-top: 10px;
+    margin-right: auto;    
   }
   .main-content {
-    width: 100%;
+    
     color: #464646;
     border-left: 2px solid #FE8A71;
+    display: flex;
   }
   .skills {
     margin-top: 60px;    
@@ -45,7 +42,7 @@
     margin-left: 20px;    
   }
 
-  .li-item-text {
+.li-item-text {
     color: #F6CD61;
 }
 .text-left-block {
@@ -56,7 +53,48 @@
 }
 .about-me {
     padding-left: 90px;
+    display: block;
 }
 .fio {
     font-size: 50px;
+    margin: 25px;
+}
+.about-me-title {    
+    font-size: 25px;
+}
+.footer {
+     display: flex;     
+     width: 1000px;
+     margin-left: auto;
+     margin-right: auto;     
+}
+.logo {    
+    width: 10%;
+    height: 10%;
+}
+.example-code {
+    font-size: 14px;
+}
+.about-me-title {
+    margin-top: 20px;
+    background: #0E9AA7;
+}
+.position {
+    font-size: 18px;
+    color: #FE8A71;
+    font-weight: bold;
+}
+.company {
+    font-weight: bold;
+    font-size: 18px;
+}
+.li-item-work-details {
+margin-left: 30px;
+}
+.li-item-work {
+    margin-left: 20px;
+}
+.univer {
+    font-weight: bold;
+    font-size: 18px;
 }
